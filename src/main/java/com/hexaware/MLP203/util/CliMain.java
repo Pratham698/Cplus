@@ -281,6 +281,8 @@ public class CliMain {
       +e1.getMail()+" | "+e1.getContactno()+" | "+e1.getavailleaves()+" | "+e1.getdoj());
         break;
       }
+    }
+  }
      catch(NumberFormatException nfe)
      {
       System.out.println("Sorry, No such employee");
@@ -312,6 +314,7 @@ public class CliMain {
           + " | "+employee.getContactno() +" | " + employee.getavailleaves() + " | " + employee.getdoj());
         break;
     }
+  }
     catch(NumberFormatException nfe)
     {
       System.out.println("Enter correct employee id");
